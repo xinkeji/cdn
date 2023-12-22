@@ -1,6 +1,4 @@
-
-<script type="text/javascript">
-         window.onload = function() {
+  window.onload = function() {
              document.onkeydown = function() {
                  var e = window.event || arguments[0];
                  if(e.keyCode == 123) {
@@ -19,4 +17,3 @@
                  return false;
              }
          }
-</script>
